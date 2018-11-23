@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   background-color: black;  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.card{
+  background-image: url("https://img.freepik.com/vecteurs-libre/terre-bleue-sur-le-maillage-reseau-wireframe_1017-13730.jpg?size=338&ext=jpg");
+  background-repeat: no-repeat; 
+  background-size:115%;
+  height: 400px;
+  color: white;
+  width: 50%;
+margin-left: 2%;
+margin-top: 2%;
+border-radius: 7%;
+border: 2px solid white;
+}
+.details{
+display: flex;
+flex-direction: column;
+margin-top: -4%;
+}
+.img_puce{ 
+  width:17%; margin-left:10%;
+}
+.number, .CARDHOLDER{font-size: 25px; font-weight: 700;     margin-top: 3%;
+}
+.card-name{ margin-left: 40%; font-size: 42px;}
+.card_id{     margin-top: 2%; background-color: rgba(209, 255, 6, 0.5); 
+font-size: 24px;  letter-spacing: 2px;
+color:rgb(230, 230, 97);    padding-left: 2%;
+font-family:  'Orbitron', monospace;
+width:105%;
+}
+.section{ display: flex;}
+.section1{ width: 80%; margin-left:10%;}
+.img_mastercard{ width:61%; margin-top: 21%;margin-left: 27%;}
+.number_date{ display: flex; margin-top:3%;}
+.date_details{font-size: 14px; margin-left:41%; display: flex; flex-direction: column;}
+.M_Ylabel{ display: flex;}
+.top_label{margin-left: 37%; }
+.date{font-size: 20px; font-weight: 600;    padding: 4% 13%;}
+.left_label{width: 32%;}
+.icon_label{ font-size: 20px; font-weight: 800;}
+.body-card{ display :flex;}
+.inputs-text{ display: flex; flex-direction: column;    padding: 13% 6%;}
+input{     padding: 3% 8%; font-size:16px;
+  margin-bottom: 7%; border-color: yellow; border-radius: 5%;}
+  input:active { border-color: blue;}
